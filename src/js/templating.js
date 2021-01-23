@@ -1,6 +1,5 @@
-import itemsTemplate from '../templates/product-items.hbs'
-import items from '../menu.json'
-
+import itemsTemplate from '../templates/product-items.hbs';
+import items from '../menu.json';
 
 const markup = itemsTemplate(items);
 const itemsRef = document.querySelector('.js-menu');
